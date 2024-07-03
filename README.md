@@ -32,6 +32,12 @@ terraform plan
 ![image](https://github.com/akitrem/docker/assets/166667781/139697b8-4120-46a2-8651-828e808b1add)
 ![image](https://github.com/akitrem/docker/assets/166667781/a1b1a230-3002-4b4c-9063-83be07be899d)
 
+## posterior, entonces lanzas el comando:
+terraform apply
+## y este hará que se comience a crear la EC2, de acuerdo con los valores asignados en el archivo de configuración 
+
+![image](https://github.com/akitrem/docker/assets/166667781/37a7ca24-b792-498e-938f-7a320cc12cef)
+
 
 
 
