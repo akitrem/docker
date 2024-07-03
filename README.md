@@ -39,6 +39,8 @@ terraform apply
 ![image](https://github.com/akitrem/docker/assets/166667781/37a7ca24-b792-498e-938f-7a320cc12cef)
 
 
+![image](https://github.com/akitrem/docker/assets/166667781/1b5b2973-8ca1-4e91-8983-1a89115ca545)
+
 
 
 
