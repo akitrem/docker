@@ -1,6 +1,6 @@
 # dockerfile con jenkins y terraform
 
-## primero levantar la imagen de ubuntu con la instalación de jenkins y terraform, ya que recuerda el dockerfile tiene esos pasos:
+## primero crear la imagen de ubuntu con la instalación de jenkins y terraform, ya que recuerda el dockerfile tiene esos pasos:
 docker build . -t ambos
 
 ## posterior levantar el contenedor con los puertos:
