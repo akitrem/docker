@@ -1,3 +1,10 @@
+variable "access_key" {
+        description = "Access key to AWS console"
+}
+variable "secret_key" {
+        description = "Secret key to AWS console"
+}
+
 variable "instance_name" {
         description = "Name of the instance to be created"
         default = "awsbuilder-demo"
