@@ -9,12 +9,16 @@ docker run -it -p 8090:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /usr
 ## dentro del contenedor, iniciar el servicio de jenkins:
 ## solo escribe: 
 jenkins 
-## y se va a mostrar el pass de acceso
+## y se va a mostrar el pass de acceso, posterior, entra a la interfaz de jenkins para terminar su configuración.
 
-## para la parte de terraform, pasa los archivos:
+## para la parte de terraform, pasa los archivos al contenedor de terr_jenk:
+![image](https://github.com/akitrem/docker/assets/166667781/108eb4e1-48d4-414c-a1e5-47a2eb8d60b1)
+
 * main,
 * variables y
 * crea el de terraform.tfvars con los keys de aws
+
+![image](https://github.com/akitrem/docker/assets/166667781/d39cc82c-6bf3-4ac2-bdf9-c358c4d10dbf)
 
 ## cuando ya estén, entonces da: 
 terrraform init
