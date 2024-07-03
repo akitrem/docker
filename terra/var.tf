@@ -28,3 +28,7 @@ variable "number_of_instances" {
         description = "number of instances to be created"
         default = 1
 }
+
+variable "ami_key_pair_name" {
+        default = "build_aws"
+}
