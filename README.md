@@ -1,10 +1,10 @@
-# docker
+# dockerfile con jenkins y terraform
 
-## primero levantar la imagen de jenkins
-docker build . -t my_jenkins
+## primero levantar la imagen de ubuntu con la instalación de jenkins y terraform, ya que recuerda el dockerfile tiene esos pasos:
+docker build . -t ambos
 
 ## posterior levantar el contenedor con los puertos:
-docker run -it -p 8090:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /root/task2:/task2 --name jenkins_v2 my_jenkins
+docker run -it -p 8090:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /root/task2:/task2 --name terr_jenk ambos
 
 ## dentro del contenedor, iniciar el servicio de jenkins:
 ## solo escribe: 
