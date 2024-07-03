@@ -11,7 +11,11 @@ docker run -it -p 8090:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /usr
 jenkins 
 ## y se va a mostrar el pass de acceso
 
-## para la parte de terraform, pasa los archivos main, variables y crea el de terraform.tfvars con los keys de aws
+## para la parte de terraform, pasa los archivos:
+* main,
+* variables y
+* crea el de terraform.tfvars con los keys de aws
+
 ## cuando ya estén, entonces da: 
 terrraform init
 ## veras el proceso de inicio de terrform.
