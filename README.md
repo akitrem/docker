@@ -25,3 +25,15 @@ terrraform init
 ## veras el proceso de inicio de terrform.
 
 ![image](https://github.com/akitrem/docker/assets/166667781/3919656f-2a35-4b0c-b924-c96833ad0d13)
+
+## una vez que todo bien con el comando anterior, entonces da:
+terraform plan
+## esto es para ver lo que se va a agregar o destruir, según sea el caso:
+![image](https://github.com/akitrem/docker/assets/166667781/139697b8-4120-46a2-8651-828e808b1add)
+![image](https://github.com/akitrem/docker/assets/166667781/a1b1a230-3002-4b4c-9063-83be07be899d)
+
+
+
+
+
+
